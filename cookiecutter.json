@@ -1,0 +1,14 @@
+{
+  "author": "Aditya Krishnakumar",
+  "email": "aditya@example.com",
+  "github_user": "adityak-sysdig",
+  "package_name": "{{ cookiecutter.package_name.lower().replace(' ', '_') }}",
+  "module_name": "{{ cookiecutter.package_name|lower|replace('-', '_') }}",
+  "short_description": "A simple application",
+  "version": "0.0.1",
+  "copyright_year": "{% now 'utc', '%Y' %}",
+  "license": "MIT",
+  "command_line_interface": "no cli",
+  "use_jupyterlab": "n",
+  "add_badges": "n"
+}
